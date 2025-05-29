@@ -12,7 +12,7 @@
 CoRL is a GRPO-based RL framework designed to simultaneously enhance the generation and understanding capabilities of ULMs within a shared policy optimization paradigm. It comprises a unified RL stage for joint optimization and a refined RL stage for task-specific enhancement. 
 
 <p align="center">
-   <img src="assets/corl_overview.jpg" alt="method overview." style="width: 90%;">
+   <img src="assets/corl_overview.jpg" alt="method overview." style="width: 85%;">
 </p>
 
 ## 📢 Latest Updates
@@ -37,7 +37,7 @@ pip install flash-attn --no-build-isolation
 
 - [Stage I: unified RL data](https://huggingface.co/datasets/mm-vl/x2x_rft_22k), with ~70\% concept coverage.
 <p align="center">
-   <img src="assets/data_sample.jpg" alt="training example for unified RL." style="width: 90%;">
+   <img src="assets/data_sample.jpg" alt="training example for unified RL." style="width: 85%;">
 </p>
 
 - [Stage II: refined RL data for text-to-image](https://huggingface.co/datasets/mm-vl/x2x_rft_16k)
@@ -47,28 +47,36 @@ pip install flash-attn --no-build-isolation
 
 ## Training Pipeline
 
-### Stage I: Unified RL 
+- Unified RL 
 
 ```shell
-
+bash scripts/corl_unified.sh
 ```
 
-### Stage II: Refined RL 
+[//]: # (### Stage II: Refined RL )
 
-- Multimodal Understanding
+[//]: # ()
+[//]: # (- Multimodal Understanding)
 
-```shell
+[//]: # ()
+[//]: # (```shell)
 
-```
+[//]: # ()
+[//]: # (```)
+
 [//]: # (- MC-Format)
 
+[//]: # ()
 [//]: # (- OE-Format)
 
-- Text-to-Image Generation
+[//]: # ()
+[//]: # (- Text-to-Image Generation)
 
-```shell
+[//]: # ()
+[//]: # (```shell)
 
-```
+[//]: # ()
+[//]: # (```)
 
 ## Acknowledgement
 
