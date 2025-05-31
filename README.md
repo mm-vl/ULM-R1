@@ -23,7 +23,7 @@ CoRL is a GRPO-based RL framework designed to simultaneously enhance the generat
 ## Environment 
 
 ```bash
-git https://github.com/mm-vl/ULM-R1.git
+git clone https://github.com/mm-vl/ULM-R1.git
 cd ULM-R1
 conda create -n corl python=3.10 -y
 conda activate corl
