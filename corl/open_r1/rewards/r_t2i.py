@@ -413,10 +413,10 @@ def t2i_cycle_consistency_reward(
     return rewards
 
 
-from .r_od import (
-    accuracy_reward_iou,
-    accuracy_reward_confidence,
-)
+# from .r_od import (
+#     accuracy_reward_iou,
+#     accuracy_reward_confidence,
+# )
 @torch.inference_mode()
 def t2i_obj_det_reward(
         completions,
